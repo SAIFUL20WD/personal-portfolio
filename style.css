@@ -1,0 +1,132 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    margin: 0px;
+    color: #2c2c2c;
+}
+h1, h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.header-section {
+    background-image: url("images/header-bg.png");
+    height: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.name-highlight {
+    color: #ec4c7a;
+    font-size: 40px;
+    font-weight: 900;
+}
+p {
+    color: dimgray;
+    font-size: 16px;
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(90deg, #ec4f91, #ec4b74);
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+}
+.link-button:hover {
+    background-image: linear-gradient(90deg, #69e9cb, #379af4);
+}
+.half-width-div {
+    width: 35%;
+    float: left;
+}
+.header-text {
+    margin: 200px 5px 0px 250px;
+}
+.header-img {
+    width: 100%;
+    margin-top: 80px;
+}  
+.biography-section {
+    background-image: url("images/biography-bg.png");
+    height: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.biography-img {
+    width: 100%;
+    margin: 50px 10px 40px 100px;
+}
+.biography-text {
+    margin: 130px 0px 0px 200px;
+}
+.work-section {
+    background-image: url("images/latest-work-bg.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#work-heading {
+    text-align: center;
+    margin-top: 70px;
+}
+.work-img-container {
+    margin: 50px 0px 0px 100px;
+}
+.work-div {
+    width: 28%;
+    float: left;
+    margin: 1%;
+}
+.work-img {
+    width: 100%;
+}
+.footer-section {
+    text-align: center;
+    background-image: url("images/footer-bg.png");
+    height: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#footer-heading {
+    margin-top: 70px;
+}
+.client-name {
+    color: #2c2c2c;
+    font-weight: 600;
+    margin-top: 80px;
+}
+.client-status {
+    font-size: 14px;
+}
+.footer-lorem {
+    color: #3b3939;
+    font-weight: 500;
+    padding-top: 30px;
+}
+.contact-gmail {
+    text-align: center;
+    width: 300px;
+    color: white;
+    background-image: linear-gradient(90deg, #ec4f91, #ec4b74);
+    padding: 30px 200px 30px 150px;
+    margin: 70px auto;
+    border-radius: 8px;
+}
+#support-message {
+    color: white;
+}
+#support-gmail {
+    color: white;
+    font-size: 25px;
+}
+footer {
+    text-align: center;
+}
+#copyright {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 150px;
+}
